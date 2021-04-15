@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  padding: 160px 80px;
+}
+
+/* Typography */
+.heading-primary {
+  font-size: 43px;
+  font-weight: 800;
+  color: teal;
+  text-transform: uppercase;
+}
+
+.heading-secondary {
+  font-size: 25px;
+  font-weight: 600;
+  color: teal;
+}
+
+.heading-tertiary {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heading-footer {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.paragraph {
+  margin-top: 10px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.info-2 {
+  margin-top: 20px;
+}
+
+.skillset {
+  line-height: 29px;
+  font-weight: 600;
+}
+
+/* */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.diamond-shape {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: teal;
+  position: relative;
+  top: -50px;
+}
+
+.diamond-shape:after {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: teal;
+}
+
+.intro__info {
+  padding: 0 90px;
+  margin-left: 61px;
+  border-left: 1px solid #ccc;
+}
+
+.work {
+  margin-top: 50px;
+}
+
+.col {
+  padding: 0 90px;
+  border-left: 1px solid #ccc;
+}
+
+.col1 {
+  margin-left: 15px;
+}
+
+.col2 {
+  margin-left: 100px;
+}
+
+.col3 {
+  margin-left: 99px;
+}
+
+.col4 {
+  margin-left: 40px;
+}
+
+.col5 {
+  margin-left: 8px;
+}
+
+.u-margin-top {
+  margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: teal;
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+footer {
+  padding: 80px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 40px 20px;
+  }
+
+  /* Typography */
+  .heading-primary {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .heading-secondary {
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .heading-tertiary {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .heading-footer {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .paragraph {
+    margin-top: 6px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .info-2 {
+    margin-top: 15px;
+  }
+
+  .skillset {
+    line-height: 29px;
+    font-weight: 400;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro__info {
+    padding: 0 10px;
+    margin-left: 7px;
+    border-left: none;
+  }
+
+  .work {
+    margin-top: 30px;
+  }
+
+  .col {
+    padding: 0 20px;
+    border-left: none;
+  }
+
+  .col1 {
+    margin-left: 5px;
+  }
+
+  .col2 {
+    margin-left: 5px;
+  }
+
+  .col3 {
+    margin-left: 7px;
+  }
+
+  .col4 {
+    margin-left: 7px;
+  }
+
+  .col5 {
+    margin-left: 3px;
+  }
+
+  .u-margin-top {
+    margin-top: 20px;
+  }
+
+  a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
